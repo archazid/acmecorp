@@ -1,5 +1,4 @@
-Contact Us
-----------
+# Contact Us
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Tellus id interdum velit laoreet id donec ultrices tincidunt arcu. Faucibus scelerisque eleifend donec pretium.
