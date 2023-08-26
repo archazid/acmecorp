@@ -8,7 +8,6 @@
       {{ with $title }}<h1>{{ . }}</h1>{{ end }}
       {{ with .Param "subtitle" }}<h2>{{ . | humanize | markdownify }}</h2>{{ end }}
       <a href="{{ ref . (.Param "explore") }}">Explore</a>
-      {{ partialCached "menu.html" (dict "Menu" site.Menus.footer) "footer" }}
     </div>
   </section>
   {{ with (partialCached "products.html" "cache") }}

@@ -4,9 +4,9 @@ menu:
     name: Terms of Use
     weight: 200
 type: modern
+toc: true
+title: Terms of Use
 ---
-
-# Terms of Use
 
 ## Terms
 
