@@ -21,7 +21,6 @@ testimonials:
     content: >
         Undoubted accuracy. Safety guarantee. 
         We love what Acme delivers.
-type: modern
 ---
 
 Acme is the **best**
