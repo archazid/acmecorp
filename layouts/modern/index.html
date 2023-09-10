@@ -62,18 +62,7 @@
     <h1>From our blog</h1>
     <ul class="posts">
       {{ range first 3 . }}
-      <li class="post">
-        <a href="{{ .Permalink }}">
-          {{ with .Resources.GetMatch "cover.*" }}
-            {{ with .Resize "1000x webp" }}
-            <img src="{{ .RelPermalink }}" alt="{{ .Title }}" loading="lazy" />
-            {{ end }}
-          {{ end }}
-          <h2>{{ .Title }}</h2>
-          <article>{{ .Summary  }}</article>
-          <div>Read More</div>
-        </a>
-      </li>
+        {{ partialCached "card.html" . .Permalink }}
       {{ end }}
     </ul>
   </section>
