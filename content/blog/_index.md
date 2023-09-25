@@ -10,7 +10,6 @@ menu:
     weight: 100
 ---
 
-The Acme Blog
-============
+# The Acme Blog
 
 Curated content about our teams and products.
