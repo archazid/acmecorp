@@ -3,7 +3,7 @@
     News
   </div>
   {{ with (.Resources.GetMatch "cover.*") }}
-  <img src="{{ (.Resize " 1000x").Permalink }}" alt="{{ $.Title }}" loading="lazy">
+  <img src="{{ (.Resize "1000x").Permalink }}" alt="{{ $.Title }}" loading="lazy">
   {{ end }}
   <a href="{{ .Permalink }}">
     <h2>
