@@ -47,6 +47,7 @@
     {{ end }}
   </aside>
 </div>
+
 {{ with site.RegularPages.Related . }}
 <div id="related">
   <h2>Related Pages</h2>
@@ -57,4 +58,10 @@
   </ul>
 </div>
 {{ end }}
+
+{{ partial "comment.html" (dict
+  "RelPermalink" .Page.RelPermalink
+  "Disabled" ($.Param "CommentDisabled")
+) }}
+
 {{ end }}

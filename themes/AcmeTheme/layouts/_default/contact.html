@@ -4,7 +4,8 @@
 <main>
   {{ $img := .Resources.GetMatch "cover.*" }}
   {{ if $img }}
-  <img src="{{ ($img.Fill "1920x400 Center").Permalink }}" alt="{{ .Title }}" width="1920" height="400" loading="lazy" />
+  <img src="{{ ($img.Fill " 1920x400 Center").Permalink }}" alt="{{ .Title }}" width="1920" height="400"
+    loading="lazy" />
   {{ end }}
   {{ with .Title }}
   <h1>
@@ -22,6 +23,7 @@
         <label>Don’t fill this out if you’re human:</label>
         <input name="bot-field" />
       </div>
+
       <div>
         <label for="name">Name:</label>
         <input id="name" name="name" type="text" required />
