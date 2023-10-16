@@ -1,5 +1,5 @@
 ---
-title: Random questions from Hugo In Action
+title: Random questions from Hugo in Action
 survey:
 - question: Do you like websites that are slow to load?
   answer: [Yes, No]
@@ -7,7 +7,8 @@ survey:
   answer: [1 (Very Low),2,3,4,5 (Very High)]
 - question: What is the answer to life, the universe and everything?
 - question: Any further comments.
-form: mleoenno
+
+name: 'Random questionnaire'
 ---
 
 Please answer a random survey we built in Hugo in Action.

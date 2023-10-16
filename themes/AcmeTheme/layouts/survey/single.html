@@ -4,7 +4,7 @@
 <main>
   <h2>{{ .Title }}</h2>
   {{ .Content }}
-  <form name="{{ .Title }}" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+  <form name="{{ .Param "name" }}" method="POST" netlify-honeypot="bot-field" data-netlify="true">
     <div class="hidden">
       <label>Don't fill this out if you're human:</label>
       <input name="bot-field" />
