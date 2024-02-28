@@ -1,3 +1,3 @@
 # Acme Website
 
-Acme company website
+Acme company website made with Hugo
